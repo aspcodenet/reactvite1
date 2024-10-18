@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './assets/components/Header'
-import Footer from './assets/components/footer'
-import Main from './assets/components/Main'
+import Header from './components/Header'
+import Footer from './components/footer'
+import Main from './components/Main'
 
 function App() {
   const [count, setCount] = useState(0)
